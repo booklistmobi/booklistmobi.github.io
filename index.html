@@ -25,7 +25,7 @@ function createXMLHttpRequest(){
 function sendRequest(url){
   createXMLHttpRequest();
   XMLHttpR.open("GET",url,true);
-  XMLHttpR.setRequestHeader("Content-Type","text/html;charset=gb2312");
+  XMLHttpR.setRequestHeader("Content-Type","text/html;charset=utf-8");
   XMLHttpR.onreadystatechange = processResponse;
   XMLHttpR.send(null);
 }
@@ -40,7 +40,7 @@ function processResponse(){
 
 </script>
   
-<iframe id="frame3d" name="frame3d" scrolling="auto" style="margin-top: -4px;" src="http://39.105.96.149" mce_src="http://www.baidu.com" onload="this.style.height=document.body.clientHeight" width="100%" height="100%" frameborder="0">
+<!--<iframe id="frame3d" name="frame3d" scrolling="auto" style="margin-top: -4px;" src="http://39.105.96.149" mce_src="http://www.baidu.com" onload="this.style.height=document.body.clientHeight" width="100%" height="100%" frameborder="0">
 
-</iframe>
+</iframe>-->
 </html>
